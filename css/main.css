@@ -53,14 +53,40 @@ label {
     display: block;
 }
 
-@media screen and (min-width: 767px) {
+body {
+    background-color: #441E09;
+    background-image: url("/image/cooking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 1250px) {
     .form-body {
     background-color: #f0f0f0;
     padding: 20px 20px 20px;
     max-width: 318px;
     margin: 0 auto;
-    border-radius: 5px;
+    border-radius: 10px;
     }
+    
+    .section-sign-up {
+    padding: 192px 0px 32px;
+    }
+}
+
+
+@media screen and (max-width: 1250px) and (min-width: 767px) {
+    .form-body {
+    background-color: #f0f0f0;
+    padding: 20px 20px 20px;
+    max-width: 318px;
+    margin: 0 auto;
+    border-radius: 10px;
+    }
+    
+    .section-sign-up {
+    padding: 82px 0px 32px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -70,22 +96,24 @@ label {
     margin: 0 auto;
     
     }
-}
-
-
-.section-sign-up {
-    background-image: url("image/background-cook.jpg");
+    
+    .section-sign-up {
     padding: 64px 0px 32px;
 }
+}
+
+    .section-sign-up {
+    display: block;
+}
+
 
 .form-set {
         margin-bottom: 15px;
 }
 
 .form-submit {
-    background: #ff0a8d;
-    background: -webkit-linear-gradient(legacy-direction(to right), #ff0a8d, #ffa605);
-    background: linear-gradient(to right, #ff0a8d, #ffa605);
+    background: #DF0912;
+    background: linear-gradient(to right, #DF0912, #F98A02);
     border-width: 0;
     font-size: 1em;
     color: #fff;
@@ -119,4 +147,11 @@ label {
 .form-headline {
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+.nav {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #441E09;
 }
