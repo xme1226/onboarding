@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    display: block;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -49,10 +48,9 @@ table {
 }
 
 /* custom css */
-.form-body {
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-    margin: 0 auto;
+
+label {
+    display: block;
 }
 
 @media screen and (min-width: 767px) {
@@ -61,10 +59,37 @@ table {
     padding: 10px 20px;
     max-width: 318px;
     margin: 0 auto;
+    border-radius: 5px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .form-body {
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    margin: 0 auto;
+    
+    }
+}
+
 
 .section-sign-up {
     background-color: aqua;
     padding: 64px 0px 32px;
+}
+
+.form-set {
+        margin-bottom: 15px;
+}
+
+.form-submit {
+    background: #ff0a8d;
+    background: -webkit-linear-gradient(legacy-direction(to right), #ff0a8d, #ffa605);
+    background: linear-gradient(to right, #ff0a8d, #ffa605);
+    border-width: 0;
+    font-size: 1em;
+    color: #fff;
+    width: 100%;
+    border-radius: 3px;
+    padding: 15px;
 }
