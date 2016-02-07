@@ -73,8 +73,17 @@ body {
     border-radius: 10px;
     }
     
+    .form-set {
+        margin-bottom: 15px;
+    }
+    
     .section-sign-up {
     padding: 192px 0px 32px;
+    }
+    
+    .form-input {
+        font-size: 1.333em;
+        padding: 10px;
     }
 }
 
@@ -90,9 +99,18 @@ body {
     border-radius: 10px;
     }
     
+    .form-set {
+        margin-bottom: 10px;
+    }
+    
     .section-sign-up {
     padding: 82px 0px 32px;
-}
+    }
+    
+    .form-input {
+        font-size: 1.333em;
+        padding: 8px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -104,19 +122,24 @@ body {
     margin: 0 auto;
     }
     
+    .form-set {
+        margin-bottom: 5px;
+    }
+    
     .section-sign-up {
     padding: 64px 0px 32px;
 }
+    
+    .form-input {
+        font-size: 1em;
+        padding: 7px;
+    }
 }
 
     .section-sign-up {
     display: block;
 }
 
-
-.form-set {
-        margin-bottom: 15px;
-}
 
 .form-submit {
     background: #DF0912;
@@ -133,14 +156,12 @@ body {
 
 .form-input {
     width: 100%;
-    padding: 10px;
     border-radius: 3px;
     border: 1px solid #c8c3c3;
     min-width: 10px;
     min-height: 10px;
     box-sizing: border-box;
     color: #3c3c3c;
-    font-size: 1.333em;
 }
 
 .form-label {
@@ -178,3 +199,10 @@ body {
 }
 
 
+
+
+
+.acceptation {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
