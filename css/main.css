@@ -51,12 +51,12 @@ table {
 
 label {
     display: block;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875em;
+    line-height: 1.25em;
     box-sizing: border-box;
     color: #3c3c3c;
     display: block;
-    padding-bottom: 3px;
+    padding-bottom: 0.1875em;
 }
 
 body {
@@ -66,79 +66,77 @@ body {
     background-size: cover;
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 78.125em) {
     .form-body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
-    backgrou
-    font-weight: 700;
     background-color: #F1ECE7;
-    padding: 20px 20px 20px;
-    max-width: 318px;
+    padding: 1.25em 1.25em 1.25em;
+    max-width: 19.875em;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 0.625em;
     }
     
     .form-set {
-        margin-bottom: 15px;
+        margin-bottom: 0.9375em;
     }
     
     .section-sign-up {
-    padding: 192px 0px 32px;
+    padding: 12em 0em 2em;
     }
     
     .form-input {
         font-size: 1.333em;
-        padding: 10px;
+        padding: 0.625em;
     }
 }
 
 
-@media screen and (max-width: 1250px) and (min-width: 767px) {
+@media screen and (max-width: 78.125em) and (min-width: 47.9375em) {
     .form-body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     background-color: #F1ECE7;
-    padding: 20px 20px 20px;
-    max-width: 318px;
+    padding: 1.25em 1.25em 1.25em;
+    max-width: 19.875em;
     margin: 0 auto;
-    border-radius: 10px;
+    border-radius: 0.625em;
     }
     
     .form-set {
-        margin-bottom: 10px;
+        margin-bottom: 0.625em;
     }
     
     .section-sign-up {
-    padding: 82px 0px 32px;
+    padding: 5.125em 0em 2em;
     }
     
     .form-input {
         font-size: 1.333em;
-        padding: 8px;
+        padding: 0.5em;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.9375em) {
     .form-body {
     font-family: 'Oxygen', sans-serif;
     font-weight: 700;
     background-color: #F1ECE7;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     margin: 0 auto;
     }
     
     .form-set {
-        margin-bottom: 5px;
+        margin-bottom: 0.3125em;
     }
     
     .section-sign-up {
-    padding: 64px 0px 32px;
+    padding: 4em 0em 2em;
 }
     
     .form-input {
         font-size: 1em;
-        padding: 7px;
+        padding: 0.4375em;
     }
 }
 
@@ -154,18 +152,18 @@ body {
     font-size: 1em;
     color: #fff;
     width: 100%;
-    border-radius: 3px;
-    padding: 15px;
+    border-radius: 0.1875em;
+    padding: 0.9375em;
 }
 
 
 
 .form-input {
     width: 100%;
-    border-radius: 3px;
+    border-radius: 0.1875em;
     border: 1px solid #c8c3c3;
-    min-width: 10px;
-    min-height: 10px;
+    min-width: 0.625em;
+    min-height: 0.625em;
     box-sizing: border-box;
     color: #3c3c3c;
 }
@@ -176,14 +174,14 @@ body {
     font-family: 'Raleway', sans-serif;
     text-decoration: underline;
     font-size: 1.333em;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 0.625em;
+    padding-bottom: 1.25em;
     text-align: center;
 }
 
 .nav {
     position: fixed;
-    height: 50px;
+    height: 3.125em;
     width: 100%;
     background-color: #441E09;
 }
@@ -193,13 +191,13 @@ body {
     font-weight: 200;
     color: white;
     font-size: 1.777em;
-    padding: 10px;
+    padding: 0.625em;
     opacity: 0.8;
 }
 
 
 
 .acceptation {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
 }
